@@ -1,4 +1,3 @@
-// @ts-nocheck
 (function($) {
 	var methods = {
 		getState: function(instance, key) {
@@ -7,11 +6,9 @@
 		}
 	};
 
-	$.fn.stateContainer = function(instance, options) {
-		var args = {};
-		if (typeof options === "object") {
-			$.extend(args, options);
-			$(this).data("fname-options", args);
+	$.fn.barika = function(instance, options) {
+		if (instance === "setState") {
+			$(this).data("fname-options", options);
 		} else {
 			if (methods[instance]) {
 				return methods[instance].apply(this, arguments);

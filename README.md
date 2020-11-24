@@ -23,8 +23,3 @@ State container for jquery
 ```
 __output__ 
 > Nice state
-
-# Documentation et téléchargement
-> Documentation en cours
-
-Vous pouvez directement cloner le repository and you're good to go.

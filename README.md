@@ -1,12 +1,8 @@
 # barika
-Conteneur d'etat pour jquery.
+State container for jquery
 
-# Description
-Plus besoin de passer par un __input[hidden]__ pour garder des informations au chaud.
-Il suffit juste de le garder dans le conteneur.
-Comme c'est du javascript, n'importe quoi peut être garder dans le conteneur, même des fonctions et des classes.
 
-# Utilisation
+# Use case
 
 ```
 <script src="jquery.js"></script>

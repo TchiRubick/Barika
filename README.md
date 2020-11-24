@@ -4,7 +4,7 @@ State container for jquery
 
 # Use case
 
-```
+```javascript
 <script src="jquery.js"></script>
 <script src="jqbarika.js"></script>
 <div id="app"></div>
